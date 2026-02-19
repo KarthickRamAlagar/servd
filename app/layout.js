@@ -10,8 +10,20 @@ import { Github } from "lucide-react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Servd - AI Recipes Platform",
-  description: "",
+  title:
+    "Servd | AI Recipe Generator with Smart Pantry & Subscription Controls",
+  description:
+    "Discover intelligent cooking with Servd — an AI-powered recipe platform featuring smart pantry scanning, subscription-based rate limiting, Arcjet bot protection, secure Clerk authentication, and advanced generative AI models for personalized recipes.",
+  keywords: [
+    "AI recipes",
+    "AI cooking app",
+    "pantry recipe generator",
+    "Arcjet security",
+    "Clerk authentication",
+    "subscription based rate limiting",
+    "bot protection",
+    "Next.js AI app",
+  ],
 };
 
 export default function RootLayout({ children }) {
