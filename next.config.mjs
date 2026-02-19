@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    domains: ["www.themealdb.com", "images.unsplash.com"],
+  },
 };
 
 export default nextConfig;
