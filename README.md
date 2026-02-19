@@ -19,6 +19,15 @@
   <img src="https://img.shields.io/badge/-Next.js_AI_App-black?style=for-the-badge&logo=next.js&logoColor=white&color=000000" alt="Next.js AI App" />
 </div>
 
+
+## 🔗 Related Repository
+
+This project works together with the Servd Backend (Server Actions).
+
+- 🖥 **Backend (Next.js  + Strapi Server Sctions with Neon DB ):**  
+ [ https://github.com/KarthickRamAlagar/servd](https://github.com/KarthickRamAlagar/Servd_backend)
+
+
 ---
 
 ## 📋 Table of Contents
