@@ -1,7 +1,15 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["www.themealdb.com", "images.unsplash.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.themealdb.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
   },
 };
 
