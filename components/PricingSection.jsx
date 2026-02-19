@@ -58,7 +58,7 @@ export default function PricingSection({ subscriptionTier = "free" }) {
             <Link href="/dashboard" className="w-full">
               <Button
                 variant="outline"
-                className="w-full border-2 border-stone-900 hover:bg-stone-900 hover:text-white text-stone-50"
+                className="w-full border-2 border-stone-900 hover:bg-stone-900 hover:text-white text-stone-700"
               >
                 Get Started
               </Button>

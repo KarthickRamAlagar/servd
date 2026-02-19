@@ -16,7 +16,7 @@ export default async function Home() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+          <div className="flex flex-col lg:flex-row items-center gap-12 md:gap-20">
             {/* Text Content */}
             <div className="flex-1 text-center md:text-left">
               <Badge
@@ -27,7 +27,7 @@ export default async function Home() {
                 #1 AI Cooking Assistant
               </Badge>
 
-              <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-[0.9] tracking-tight">
+              <h1 className="text-5xl md:text-8xl font-bold mb-6 leading-[0.9] tracking-tight">
                 Turn your{" "}
                 <span className="italic underline decoration-4 decoration-orange-600">
                   leftovers
@@ -36,7 +36,7 @@ export default async function Home() {
                 masterpieces.
               </h1>
 
-              <p className="text-xl md:text-2xl text-stone-600 mb-10 max-w-lg mx-auto md:mx-0 font-light">
+              <p className="text-lg md:text-2xl text-stone-600 mb-10 max-w-lg mx-auto md:mx-0 font-light">
                 Snap a photo of your fridge. We&apos;ll tell you what to cook.
                 Save money, reduce waste, and eat better tonight.
               </p>

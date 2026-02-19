@@ -142,3 +142,30 @@
 .animate-slow-fill {
   animation: slow-fill 10s ease-out forwards;
 }
+
+/* Slim vertical scrollbar globally with orange-500 */
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 6px; /* slim width */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* light track color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f97316; /* orange-500 thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ea580c; /* slightly darker orange on hover (orange-600) */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* slim scrollbar */
+  scrollbar-color: #f97316 #f1f1f1; /* thumb & track colors */
+}
