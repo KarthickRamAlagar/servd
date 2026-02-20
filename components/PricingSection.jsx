@@ -16,7 +16,7 @@ import Link from "next/link";
 
 export default function PricingSection({ subscriptionTier = "free" }) {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto ">
       <div className="mb-16">
         <h2 className="text-5xl md:text-6xl font-bold mb-4">Simple Pricing</h2>
         <p className="text-xl text-stone-600 font-light">
@@ -24,7 +24,7 @@ export default function PricingSection({ subscriptionTier = "free" }) {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto ">
         {/* Free Plan */}
         <Card className="border-2 border-stone-200 bg-white">
           <CardHeader>
@@ -108,7 +108,7 @@ export default function PricingSection({ subscriptionTier = "free" }) {
           <CardFooter>
             <SignedIn>
               <CheckoutButton
-                planId="cplan_37y5uChZ9uYauQyTlDkXDh997ht"
+                planId="cplan_39mc3qyk6kBOYp4Ne3WoyYekZFw"
                 planPeriod="month"
                 newSubscriptionRedirectUrl="/dashboard"
                 checkoutProps={{

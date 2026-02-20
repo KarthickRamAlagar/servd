@@ -21,7 +21,7 @@ export default function PricingModal({ subscriptionTier = "free", children }) {
         {children}
       </DialogTrigger>
 
-      <DialogContent className="p-8 pt-4 sm:max-w-4xl">
+      <DialogContent className="p-8 pt-4 sm:max-w-4xl max-h-[90vh] overflow-y-auto">
         <DialogTitle />
         <div>
           <PricingSection
