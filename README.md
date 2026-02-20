@@ -25,7 +25,7 @@
 This project works together with the Servd Backend (Server Actions).
 
 - 🖥 **Backend (Next.js  + Strapi Server Sctions with Neon DB ):**  
- [ https://github.com/KarthickRamAlagar/servd](https://github.com/KarthickRamAlagar/Servd_backend)
+ [ https://github.com/KarthickRamAlagar/Servd_backend](https://github.com/KarthickRamAlagar/Servd_backend)
 
 
 ---
